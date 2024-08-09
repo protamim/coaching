@@ -1,0 +1,22 @@
+/*  For Mobile */
+.ant-tabs-nav {
+  padding-left: 0.625rem;
+  background: white;
+  max-width: 1320px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  overflow: hidden;
+}
+/* For tablet */
+@media screen and (min-width: 768px) {
+  .ant-tabs-nav {
+    padding-left: 13.5rem;
+  }
+}
+/* For laptop and up */
+@media screen and (min-width: 1024px) {
+  .ant-tabs-nav {
+    margin-bottom: 2.4rem !important;
+  }
+}
